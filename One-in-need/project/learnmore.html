@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <style>
+        /* Add custom styles here */
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .modal-body {
+            color: #495057;
+        }
+
+        .modal-title {
+            color: #343a40;
+            font-weight: bold;
+        }
+
+        .btn-learn-more {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .btn-learn-more:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Vignan NSS Team</h5>
+                        <p class="card-text">Click below to learn more about Vignan NSS Team.</p>
+                        <button type="button" class="btn btn-learn-more" data-toggle="modal" data-target="#vignanModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add similar card structures for other NSS teams -->
+        </div>
+    </div>
+
+    <!-- Modal for Vignan NSS Team -->
+    <div class="modal fade" id="vignanModal" tabindex="-1" aria-labelledby="vignanModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="vignanModalLabel">Vignan NSS Team</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Add details about Vignan NSS Team here -->
+                    <p><strong>Past Records:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p><strong>Activities Participated In:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p><strong>Recently Participated:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p><strong>Contact Information:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <!-- Add contact information here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/K
